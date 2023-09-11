@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24381475-cba5-4255-8a57-cb40b9546782" name="Changes" comment="LoginPage test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TextResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/browsers/chromedriver_mac64/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers/browsers/chromedriver_mac64/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLoginPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="24381475-cba5-4255-8a57-cb40b9546782" name="Changes" comment="Test LoginPage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,11 +97,26 @@
       <option name="project" value="LOCAL" />
       <updated>1693047247077</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test LoginPage">
+      <created>1694447105314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694447105314</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test LoginPage">
+      <created>1694447120801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694447120801</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LoginPage test" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginPage test" />
+    <MESSAGE value="Test LoginPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test LoginPage" />
   </component>
 </project>
