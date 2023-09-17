@@ -22,6 +22,10 @@ public class LoginPage {
     @FindBy(id = "submit")
     private WebElement submitButton;
 
+    @FindBy(id = "login")
+    private WebElement loginTitle;
+
+
 
 
     public WebElement fillEmailField() {
@@ -34,5 +38,8 @@ public class LoginPage {
     public WebElement clickSubmitButton(){
         return submitButton;
     }
-   
+
+    public WebElement seeTitleLogin(){
+        return loginTitle;
+    }
 }

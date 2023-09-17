@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24381475-cba5-4255-8a57-cb40b9546782" name="Changes" comment="Test LoginPage" />
+    <list default="true" id="24381475-cba5-4255-8a57-cb40b9546782" name="Changes" comment="Test LoginPage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLoginPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +51,36 @@
       <recent name="$PROJECT_DIR$/src/main/resources/drivers/chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLoginPage.testLogin">
+  <component name="RunManager" selected="JUnit.TestLoginPage">
+    <configuration name="TestLoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicAutomaton" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginPage.checkEmailFieldIsDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicAutomaton" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
+      <option name="METHOD_NAME" value="checkEmailFieldIsDisplayed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginPage.checkTitleisDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicAutomaton" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
+      <option name="METHOD_NAME" value="checkTitleisDisplayed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLoginPage.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicAutomaton" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +103,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLoginPage" />
+        <item itemvalue="JUnit.TestLoginPage.checkEmailFieldIsDisplayed" />
+        <item itemvalue="JUnit.TestLoginPage.checkTitleisDisplayed" />
         <item itemvalue="JUnit.TestLoginPage.testLogin" />
         <item itemvalue="JUnit.TestRegisterPage.testRegisterPage" />
       </list>
@@ -111,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694447120801</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test LoginPage">
+      <created>1694447188313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694447188313</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test LoginPage">
+      <created>1694447191928</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694447191928</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
