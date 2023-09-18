@@ -10,14 +10,21 @@ public class TestLoginPage extends BaseClass {
     @Test
     public void testLogin() {
         accesTheWebsite();
-
         LoginPage loginPage = new LoginPage(driver);
-
         loginPage.fillEmailField().sendKeys(resources.email);
         loginPage.fillPasswordField().sendKeys(resources.password);
         loginPage.clickSubmitButton();
-
         System.out.println("Login fields filled successfully.");
+    }
+    @Test
+    public void clickOnSubmitBtWithEmptyFields() {
+        accesTheWebsite();
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.clickSubmitButton();
+        String expectedTitle = "Bad credentials! Please try again! Make sure that you've registered.";
+        String actualTitle = "Bad credentials! Please try again! Make sure that you've registered.";
+        assertEquals(expectedTitle, actualTitle);
+
     }
 
     @Test
