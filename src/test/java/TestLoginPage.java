@@ -50,6 +50,15 @@ public class TestLoginPage extends BaseClass {
         assertEquals(expectedText, actualText);
     }
 
+    @Test
+    public void checkURL(){
+        accesTheWebsite();
+        //driver.get("https://qa-automation-practice.netlify.app/login");
+        String actualUrl = "https://qa-automation-practice.netlify.app/login";
+        String expectedUrl = "https://qa-automation-practice.netlify.app/login";
+        assertEquals(expectedUrl,actualUrl);
+    }
+
     @After
     public void closeBrowser() {
         driver.quit();
