@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24381475-cba5-4255-8a57-cb40b9546782" name="Changes" comment="Tests on LoginPage&#10;I added a new test clickOnSubmitBtWithEmptyFields">
+    <list default="true" id="24381475-cba5-4255-8a57-cb40b9546782" name="Changes" comment="I added a new test checkURL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TextResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/input/TextResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,32 +50,12 @@
       <recent name="$PROJECT_DIR$/src/main/resources/drivers/chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLoginPage.checkURL">
+  <component name="RunManager" selected="JUnit.TestLoginPage.testLogin">
     <configuration name="TestLoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BasicAutomaton" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLoginPage.checkEmailFieldIsDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BasicAutomaton" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
-      <option name="METHOD_NAME" value="checkEmailFieldIsDisplayed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLoginPage.checkTitleisDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BasicAutomaton" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
-      <option name="METHOD_NAME" value="checkTitleisDisplayed" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,13 +80,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLoginPage.inputWrongEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicAutomaton" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
+      <option name="METHOD_NAME" value="inputWrongEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginPage.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BasicAutomaton" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLoginPage" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLoginPage.testLogin" />
+        <item itemvalue="JUnit.TestLoginPage.inputWrongEmail" />
         <item itemvalue="JUnit.TestLoginPage.checkURL" />
         <item itemvalue="JUnit.TestLoginPage.clickOnSubmitBtWithEmptyFields" />
         <item itemvalue="JUnit.TestLoginPage" />
-        <item itemvalue="JUnit.TestLoginPage.checkEmailFieldIsDisplayed" />
-        <item itemvalue="JUnit.TestLoginPage.checkTitleisDisplayed" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695060573404</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="I added a new test checkURL">
+      <created>1695138567881</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695138567881</updated>
+    </task>
+    <task id="LOCAL-00011" summary="I added a new test checkURL">
+      <created>1695138578025</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695138578025</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +204,7 @@
     <MESSAGE value="Test LoginPage" />
     <MESSAGE value="Tests on LoginPage" />
     <MESSAGE value="Tests on LoginPage&#10;I added a new test clickOnSubmitBtWithEmptyFields" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests on LoginPage&#10;I added a new test clickOnSubmitBtWithEmptyFields" />
+    <MESSAGE value="I added a new test checkURL" />
+    <option name="LAST_COMMIT_MESSAGE" value="I added a new test checkURL" />
   </component>
 </project>

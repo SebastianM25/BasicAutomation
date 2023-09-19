@@ -2,6 +2,8 @@ import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import input.TextResources;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestLoginPage extends BaseClass {
@@ -14,8 +16,23 @@ public class TestLoginPage extends BaseClass {
         loginPage.fillEmailField().sendKeys(resources.email);
         loginPage.fillPasswordField().sendKeys(resources.password);
         loginPage.clickSubmitButton();
-        System.out.println("Login fields filled successfully.");
+        String expectedTitle = "admin@admin.com, you have successfully logged in!";
+        String actualTitle = "admin@admin.com, you have successfully logged in!";
+        assertEquals(expectedTitle, actualTitle);
     }
+
+    @Test
+    public void inputWrongEmail() {
+        accesTheWebsite();
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.fillEmailField().sendKeys(resources.wrongEmail);
+        loginPage.fillPasswordField().sendKeys(resources.password);
+        loginPage.clickSubmitButton();
+        String expectedTitle = "Bad credentials! Please try again! Make sure that you've registered.";
+        String actualTitle = "Bad credentials! Please try again! Make sure that you've registered.";
+        assertEquals(expectedTitle, actualTitle);
+    }
+
     @Test
     public void clickOnSubmitBtWithEmptyFields() {
         accesTheWebsite();
@@ -46,17 +63,15 @@ public class TestLoginPage extends BaseClass {
         // Get the "id" attribute of the element
         String actualText = element.getAttribute("id");
         String expectedText = "email";
-        // Now, use assertEquals to compare the actualText with the expectedText
         assertEquals(expectedText, actualText);
     }
 
     @Test
-    public void checkURL(){
+    public void checkURL() {
         accesTheWebsite();
-        //driver.get("https://qa-automation-practice.netlify.app/login");
         String actualUrl = "https://qa-automation-practice.netlify.app/login";
         String expectedUrl = "https://qa-automation-practice.netlify.app/login";
-        assertEquals(expectedUrl,actualUrl);
+        assertEquals(expectedUrl, actualUrl);
     }
 
     @After
